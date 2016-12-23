@@ -10,8 +10,13 @@ using System.Data.Entity;
 using System.Data.Entity.Core.Objects;
 
 
+
+
 namespace DataAccessLayer
 {
+
+
+ //check
     public class AppointmentDAL : SpaPracticeEntities
     {
         public List<string> GetAppointmentScheduleTime()
